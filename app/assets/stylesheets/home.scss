@@ -22,6 +22,8 @@ time, mark, audio, video {
  vertical-align: baseline;
  text-decoration: none;
  box-sizing: border-box;
+ -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -66,6 +68,8 @@ table {
   background-size: cover;
   background-color: rgba(27, 27, 27, 0.77);
   background-blend-mode: multiply;
+  outline: 1px solid rgba(255, 255, 255, 0.33);
+  outline-offset: -11px;
 }
 
 h1 {
@@ -73,8 +77,8 @@ h1 {
   text-align: center;
   font-size: 65px;
   letter-spacing: 5px;
-  border: #a71414;
-  color: white;
+  border: rgba(167, 20, 20, 0.67);
+  color: rgba(255, 255, 255, 0.8);
   border-style: solid;
   border-width: 4px;
   padding: 9px 15px 13px 15px;
@@ -83,9 +87,9 @@ h1 {
 
 h2  {
  font-family: 'Oswald', sans-serif;
- color: white;
+ color: rgba(255, 255, 255, 0.8);
  font-size: 20px;
- margin-top: 1%;
+ margin-top: 2%;
 
 }
 
@@ -104,9 +108,13 @@ h2  {
 
 .links a {
   display: inline-block;
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .fa.fa-linkedin {
   margin: 0px 24px 0px 28px;
+}
+
+.fa.fa-facebook {
+  margin-right: 24px
 }
