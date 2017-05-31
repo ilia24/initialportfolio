@@ -68,7 +68,12 @@
  .wrapper {
    height: 100%;
    width: 100%;
-   position: fixed;
+   position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
    text-align: center;
    background-image: url("pexels-photo-173434");
    background-position: center;
@@ -81,18 +86,26 @@
  h1 {
    font-family: 'Oswald', sans-serif;
    text-align: center;
-   font-size: 50px;
-   letter-spacing: 2px;
+   font-size: 65px;
+   letter-spacing: 5px;
    border: #a71414;
    color: white;
    border-style: solid;
+   border-width: 4px;
    display: inline-block;
    padding: 9px 11px 13px 11px;
-   margin-top: 7%
+   margin: auto;
  }
 
 h2  {
   font-family: 'Oswald', sans-serif;
   color: white;
+
+}
+
+.content {
+  vertical-align: middle;
+      margin-top: 15%;
+
 
 }
