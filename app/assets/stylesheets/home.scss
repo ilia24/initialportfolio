@@ -104,6 +104,7 @@ h2  {
   bottom: 11%;
   right: 0;
   left: 0;
+  z-index: 5;
 }
 
 .links a {
@@ -128,6 +129,7 @@ h2  {
   color: rgba(255, 255, 255, 0.7);
   position: relative;
   top: 12px;
+  z-index: 5;
   font-size: 15px;
     -webkit-transition: all .15s ease-in;
 }
