@@ -109,12 +109,30 @@ h2  {
 .links a {
   display: inline-block;
   color: rgba(255, 255, 255, 0.8);
+  -webkit-transition: all .15s ease-in;
 }
-
+.links a:hover {
+  color: rgb(255, 255, 255);
+  font-size: 2.2em;
+}
 .fa.fa-linkedin {
   margin: 0px 24px 0px 28px;
 }
 
 .fa.fa-facebook {
   margin-right: 24px
+}
+
+.number {
+  font-family: 'Oswald', sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  top: 12px;
+  font-size: 15px;
+    -webkit-transition: all .15s ease-in;
+}
+
+.number:hover {
+  color: rgb(255, 255, 255);
+  font-size: 19px;
 }
