@@ -35,6 +35,7 @@
  	font: inherit;
  	vertical-align: baseline;
   text-decoration: none;
+  box-sizing: border-box;
  }
  /* HTML5 display-role reset for older browsers */
  article, aside, details, figcaption, figure,
@@ -63,3 +64,35 @@
  	border-collapse: collapse;
  	border-spacing: 0;
  }
+
+ .wrapper {
+   height: 100%;
+   width: 100%;
+   position: fixed;
+   text-align: center;
+   background-image: url("pexels-photo-173434");
+   background-position: center;
+   background-size: cover;
+  background-color: rgba(27, 27, 27, 0.77);
+   background-blend-mode: multiply;
+
+ }
+
+ h1 {
+   font-family: 'Oswald', sans-serif;
+   text-align: center;
+   font-size: 50px;
+   letter-spacing: 2px;
+   border: #a71414;
+   color: white;
+   border-style: solid;
+   display: inline-block;
+   padding: 9px 11px 13px 11px;
+   margin-top: 7%
+ }
+
+h2  {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+
+}
