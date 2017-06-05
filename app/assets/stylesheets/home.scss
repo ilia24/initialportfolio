@@ -191,9 +191,6 @@ canvas {
 }
 }
 
-
-
-
 @media only screen and (max-height: 530px) {
 .content {
   margin: 15vh 8px 12vh 8px;
@@ -206,7 +203,7 @@ canvas {
 
 @media only screen and (max-height: 450px) {
 h1 {
-  font-size: 40px;
+  font-size: 45px;
 }
 
 h2 {
@@ -239,5 +236,32 @@ h2 {
   .content {
     margin: 19vh 8px -7vh 8px;
   }
+
+}
+
+@media only screen and (min-device-width: 320px) and (min-device-height: 500px) {
+  h1 {
+    font-size: 100px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  #navbutton {
+    font-size: 10em;
+    margin-top: 18vh;
+  }
+  .links {
+    font-size: 2em;
+  }
+  .links .number {
+    font-size: 1em;
+  }
+  .fa.fa-linkedin {
+  margin: 0px 24px 0px 28px;
+  }
+  .fa.fa-facebook {
+  margin-right: 24px;
+  }
+
 
 }
