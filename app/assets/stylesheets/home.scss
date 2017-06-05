@@ -150,3 +150,18 @@ canvas {
   z-index: 2;
   opacity: 0.5;
 }
+.portfoliocontent {
+  width: 100%;
+}
+#navbutton {
+  font-size: 4em;
+  display: block;
+  color: rgba(255, 255, 255, 0.6);
+  z-index: 5;
+  -webkit-transition: all .15s ease-in;
+}
+
+#navbutton a:hover {
+  color: rgb(255, 255, 255);
+  font-size: 4.5em;
+}
