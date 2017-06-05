@@ -135,12 +135,12 @@ canvas {
   position: relative;
   margin-top: 15vh;
   z-index: 5;
-  -webkit-transition: all .25s ease-in;
 }
 
 #navbutton:hover {
   color: rgba(255, 255, 255, 0.8);
   font-size: 4.3em;
+  -webkit-transition: all .15s ease-in-out;
 }
 
 
@@ -153,7 +153,7 @@ canvas {
 .links a {
   display: inline-block;
   color: rgba(255, 255, 255, 0.8);
-  -webkit-transition: all .15s ease-in;
+  -webkit-transition: all .15s ease-in-out;
 }
 .links a:hover {
   color: rgb(255, 255, 255);
@@ -173,10 +173,71 @@ canvas {
   position: relative;
   top: 12px;
   font-size: 15px;
-    -webkit-transition: all .15s ease-in;
+    -webkit-transition: all .15s ease-in-out;
 }
 
 .number:hover {
   color: rgb(255, 255, 255);
   font-size: 19px;
+}
+
+// content spacings for screen height
+@media only screen and (max-height: 650px) {
+.content {
+  margin: 18vh 8px 7vh 8px;
+}
+#navbutton {
+  margin-top: 14vh;
+}
+}
+
+
+
+
+@media only screen and (max-height: 530px) {
+.content {
+  margin: 15vh 8px 12vh 8px;
+}
+#navbutton {
+  margin-top: 12vh;
+}
+}
+
+
+@media only screen and (max-height: 450px) {
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  display: none;
+}
+
+.title {
+  height: 70px;
+}
+.content {
+  margin: 15vh 8px 3vh 8px;
+}
+}
+
+@media only screen and (max-height: 350px) {
+  h1 {
+    font-size: 65px;
+  }
+
+  h2 {
+    display: block;
+  }
+
+  .number {
+    display: none;
+  }
+  #navbutton {
+    display: none;
+  }
+  .content {
+    margin: 19vh 8px -7vh 8px;
+  }
+
 }
