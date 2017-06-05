@@ -57,11 +57,11 @@ table {
   height: 100%;
   width: 100%;
   position: absolute;
- top:0;
- bottom: 0;
- left: 0;
- right: 0;
- margin: auto;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
   text-align: center;
   background-image: image-url("pexels-photo-173434");
   background-position: center;
@@ -83,28 +83,71 @@ h1 {
   border-width: 4px;
   padding: 9px 15px 13px 15px;
   margin: auto;
+  display: inline-block;
 }
 
 h2  {
  font-family: 'Oswald', sans-serif;
  color: rgba(255, 255, 255, 0.8);
  font-size: 20px;
- margin-top: 2%;
+ margin-top: 14px;
 
 }
 
 .content {
  vertical-align: middle;
  display: inline-block;
- margin-top: 17%;
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin: 27vh 8px 6vh 8px;
 }
 
-.links {
+canvas {
   position: absolute;
-  bottom: 11%;
+  width: 100%;
+  height: 100%;
+  top: 0;
   right: 0;
   left: 0;
+  bottom: 0;
+  z-index: 2;
+  opacity: 0.5;
+}
+
+.main {
+  height: calc( 100% - 138px );
+}
+.portfoliocontent {
+  width: 100%;
+  height: 83%;
+}
+
+.title {
+  height: 138px;
+}
+#navbutton {
+  font-size: 4em;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.6);
+  position: relative;
+  margin-top: 15vh;
   z-index: 5;
+  -webkit-transition: all .25s ease-in;
+}
+
+#navbutton:hover {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 4.3em;
+}
+
+
+.links {
+  position: relative;
+  z-index: 5;
+
 }
 
 .links a {
@@ -129,7 +172,6 @@ h2  {
   color: rgba(255, 255, 255, 0.7);
   position: relative;
   top: 12px;
-  z-index: 5;
   font-size: 15px;
     -webkit-transition: all .15s ease-in;
 }
@@ -137,31 +179,4 @@ h2  {
 .number:hover {
   color: rgb(255, 255, 255);
   font-size: 19px;
-}
-
-canvas {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  z-index: 2;
-  opacity: 0.5;
-}
-.portfoliocontent {
-  width: 100%;
-}
-#navbutton {
-  font-size: 4em;
-  display: block;
-  color: rgba(255, 255, 255, 0.6);
-  z-index: 5;
-  -webkit-transition: all .15s ease-in;
-}
-
-#navbutton a:hover {
-  color: rgb(255, 255, 255);
-  font-size: 4.5em;
 }
